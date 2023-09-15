@@ -46,9 +46,9 @@ Subir liga de GitHub, GitLab o BitBucket de forma publica.
 
 *Ruta:*
 
-'''
+```
     '/results/:x/:y'
-'''
+```
 
 Esta ruta permite realizar multiples operaciones matemáticas de dos números 'x' e 'y', los cuales se proporcionan como parámetros atravez de la URL.
 

@@ -64,11 +64,11 @@ Esta ruta permite realizar multiples operaciones matemáticas de dos números 'x
 
  *Ruta:*
 
- '''
+```
     '/results/'
-'''
+```
 
-Devuelve la cadena 'Results list'.
+Devuelve la cadena `Results list``.
 
 ## Instrucciones de Uso
 
@@ -80,9 +80,9 @@ Devuelve la cadena 'Results list'.
 
  * 4 .- Ejecutar el siguiente comando en la terminal:
 
- '''
+```
  node index.js
- '''
+```
 
 Esto hará que el servidor se inicialize.
 
@@ -90,15 +90,15 @@ Esto hará que el servidor se inicialize.
 
  * 6 .- En la barra de busqueda pegar.
 
-'''
+```
 http://localhost:6969/results/${primervalor}/${segundo_valor}
-'''
+```
 
 Ejemplo: 
 
-'''
+```
 http://localhost:6969/results/5/5
-'''
+```
 
 Esto mostrara en el navegador el valor `10` ya que se hace la función `get`.
 
@@ -123,3 +123,7 @@ Esto mostrara en el navegador el valor `10` ya que se hace la función `get`.
 `DELETE:`
 
 ![patch](./img/delete.jpeg)
+
+ * 8 .- Para apagar el servidor, dirijase a la terminal de antes y haga `Ctrl + C`,
+
+Siéntase libre de clonar este repositorio y probar su funcionamiento. ¡Espero que le sea útil!

@@ -12,7 +12,7 @@ Javascript
 
 Versión de node: v18.13.0
 
-Versión de node: 4.18.2
+Versión de express: 4.18.2
 
 ## Autor
 
@@ -124,6 +124,6 @@ Esto mostrara en el navegador el valor `10` ya que se hace la función `get`.
 
 ![patch](./img/delete.jpeg)
 
- * 8 .- Para apagar el servidor, dirijase a la terminal de antes y haga `Ctrl + C`,
+ * 8 .- Para apagar el servidor, dirijase a la terminal de antes y ejecutar el siguiente par de teclas `Ctrl + C`,
 
 Siéntase libre de clonar este repositorio y probar su funcionamiento. ¡Espero que le sea útil!

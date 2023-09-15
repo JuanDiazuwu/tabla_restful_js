@@ -1,10 +1,6 @@
 const express = require('express');
 const app = express();
 
-//const resultsRouter = require('./routers/results')
-
-//app.use('/results', resultsRouter);
-
 app.post('/results/:x/:y', (req, res) =>{
     const {x, y} = req.params;
     res.send((Number(x) * Number(y)).toString());
